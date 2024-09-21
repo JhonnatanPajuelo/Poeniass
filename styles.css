@@ -112,7 +112,7 @@ p {
 }
 
 .heart {
-    font-size: 60px; /* Tamaño del corazón */
+    font-size: 60px;  
 }
 
 .footer-message {
@@ -120,7 +120,12 @@ p {
     bottom: 20px;
     right: 20px;
     font-size: 1rem;
-    font-style: italic;
+    font-style: normal;
     color: rgba(0, 0, 0, 0.7);
     z-index: 2;
+}
+
+.footer-message:hover {
+    color: #000000;
+    transform: scale(1.15);
 }

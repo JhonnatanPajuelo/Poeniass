@@ -36,7 +36,7 @@ function showNextMessage() {
 
 function createPeony() {
     const peony = document.createElement('img');
-    peony.src = 'poenia.jpeg'; // Asegúrate de que esta ruta sea correcta
+    peony.src = 'poenia.jpeg';  
     peony.alt = 'Peonia';
     peony.className = 'peony';
     peony.style.left = `${Math.random() * window.innerWidth}px`;
@@ -92,17 +92,17 @@ function handleSpecialClick() {
             setTimeout(() => {
                 flowerMessage.textContent = "❤️ Con todo mi amor para ti, Valeria ❤️";
                 flowerMessage.style.opacity = 1;
-            }, 20000); // Mostrar la segunda frase después de 20 segundos
+            }, 7000);  
 
             setTimeout(() => {
                 flowerMessage.style.opacity = 0;
-            }, 40000); // Ocultar la segunda frase después de 20 segundos
-        }, 20000); // Mostrar la primera frase por 20 segundos
+            }, 14000);  
+        }, 7000);  
 
         setTimeout(() => {
             flowerMessage.textContent = "🌺🌺 Una poenia para otra poenia 🌺🌺";
             flowerMessage.style.opacity = 1;
-        }, 60000); // Volver a la primera frase después de 20 segundos de descanso
+        }, 21000); // Volver a la primera frase después de 20 segundos de descanso
     }
 
     showNextMessage();
