@@ -52,4 +52,4 @@ Este es un proyecto especial que he creado para ti, **Valeria**. Es una página 
 - **Subtítulos** y **listas** para organizar la información.
 - **Separadores** (`---`) para dar un aspecto más limpio.
 
-Puedes copiar y pegar este texto en cualquier editor que soporte Markdown, como GitHub o cualquier README.md de tu proyecto. ¡Espero que te guste!
+¡Espero que te guste!
