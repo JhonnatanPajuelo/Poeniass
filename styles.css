@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    background-image: url('https://example.com/tu-imagen-de-fondo.jpg'); /* Cambia esta URL */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3; /* Ajusta la opacidad aquí */
+    z-index: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    transition: background-color 0.5s, transform 0.3s;
+}
+
+.container:hover {
+    background-color: #ffebee;
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #d87093;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+#message {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    min-height: 3rem;
+    transition: color 0.3s;
+}
+
+#message:hover {
+    color: #ff69b4;
+}
+
+.peony {
+    width: 80px; /* Tamaño de las peonias */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#specialButton {
+    background-color: #d87093;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    margin-top: 1rem;
+}
+
+#specialButton:hover {
+    background-color: #c76082;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.flower-message {
+    position: fixed;
+    top: 20%; /* Ajustado para estar más arriba */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem; /* Tamaño aumentado */
+    font-weight: bold; /* Negrita */
+    color: #d87093;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 2;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hearts-container {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.heart {
+    font-size: 60px; /* Tamaño del corazón */
+}
+
+.footer-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
