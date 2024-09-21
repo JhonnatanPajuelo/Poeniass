@@ -4,7 +4,7 @@
 
 ## **Descripción**
 
-Este es un proyecto especial que he creado para ti, **Valeria**. Es una página web llena de amor y sorpresas, diseñada para celebrar nuestro vínculo en este hermoso día de las flores amarillas, pero para ti rosas :v. 🌼
+Este es un proyecto especial que he creado para ti, **Valeria**. Es una página web llena de amor y sorpresas, diseñada para celebrar nuestro vínculo en este hermoso día de las flores amarillas, pero para ti rosas :v. 🌷🌷
 
 ---
 
